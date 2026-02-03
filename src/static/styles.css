@@ -158,10 +158,16 @@ footer {
 }
 
 .participants-list {
-  list-style-type: disc;
-  margin-left: 20px;
+  list-style-type: none;
+  margin-left: 0;
   margin-bottom: 0;
   color: #333;
+  padding-left: 0;
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .no-participants {

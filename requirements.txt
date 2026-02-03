@@ -1,2 +1,8 @@
 fastapi
 uvicorn
+pytest
+requests
+
+# httpx is required by starlette.testclient used by FastAPI TestClient
+# and is installed for running tests
+httpx
